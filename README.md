@@ -3,7 +3,7 @@
 Use this Python command line tool if you want to add artists' top tracks to an
 existing Spotify playlist. To use the tool, simply run
 
-`python create-playlist.py <playlist_id> <filename> <N>`
+`python create-spotify-playlist.py <playlist_id> <filename> <N>`
 
 `playlist_id` - This is a Spotify playlist ID. Go to any Spotify playlist, use
 the `Share` button and select `Copy Spotify URI`. The URI should look like this:
