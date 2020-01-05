@@ -6,9 +6,8 @@ existing Spotify playlist. To use the tool, simply run
 `python create-spotify-playlist.py <playlist_id> <filename> <N>`
 
 `playlist_id` - This is a Spotify playlist ID. Go to any Spotify playlist, use
-the `Share` button and select `Copy Spotify URI`. The URI should look like this:
-`spotify:playlist:0qiekdLNJklyu9YKqqU3Fg`. The section after `playlist:` is the
-`playlist_id`.
+the `Share` button and select `Copy Spotify URI`. The URI has this format:
+`spotify:playlist:<playlist_id>`.
 
 `filename` - This is a CSV of artist names, one artist name per line.
 
